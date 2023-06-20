@@ -11,8 +11,7 @@ int main(void)
 
 	e = 'e';
 	q = 'q';
-	     
-    
+
 	for (lw = 'a'; lw <= 'z'; lw++)
 	{
 	if (lw != e && lw != q)
