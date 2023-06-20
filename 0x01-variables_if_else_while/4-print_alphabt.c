@@ -7,11 +7,12 @@
 
 int main(void)
 {
-	char lw, e, q,
-
+	char lw, e, q;
 
 	e = 'e';
 	q = 'q';
+	     
+    
 	for (lw = 'a'; lw <= 'z'; lw++)
 	{
 	if (lw != e && lw != q)
