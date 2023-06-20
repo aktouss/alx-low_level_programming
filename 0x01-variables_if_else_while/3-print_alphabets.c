@@ -1,18 +1,20 @@
 #include <stdio.h>
 
 /**
-     *main - Positive anything is better than negative nothing
+     *main - alphABET
      *Return: always (success)
      *
     */
 
 int main(void)
 {
-	char c;
+	char lw;
 
-	for (c = 'a'; c <= 'z'; c++)
-	putchar(c);
+	for (lw = 'a'; lw <= 'z'; lw++)
+	putchar(lw);
+
+	for (lw = 'A'; lw <= 'Z'; lw++)
+	putchar(lw);
 	putchar('\n');
 	return (0);
 }
-
