@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * print_numbers - prints the numbers, from 0 to 9
+ *print_line - prints the numbers, from 0 to 9
  *@n: The numbre of lines to draw
  * Return: empty
  */
 
-void print_numbers(int n)
+void print_line(int n)
 {
 	int x;
 
